@@ -26,21 +26,9 @@ SECRET_KEY = 'django-insecure-=zi854#v*wb9mzg1z6r1zk^1%eg0(i$=@2xtjuf9@tm!2efhj3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
-
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "https://myapp-sayedaktar-codecloudsc.vercel.app",
-    "http://django-nextjs.herokuapp.com",
-    "https://django-nextjs.herokuapp.com"
-]
-CSRF_TRUSTED_ORIGINS = [
-    "http://localhost:3000",
-    "https://myapp-sayedaktar-codecloudsc.vercel.app",
-    "http://django-nextjs.herokuapp.com",
-    "https://django-nextjs.herokuapp.com"
-]
-CORS_ALLOW_METHODS = ["*"]
+ALLOWED_HOSTS=['*']
+CORS_ORIGIN_ALLOW_ALL = True
+CSRF_TRUSTED_ORIGINS = ["http://localhost:3000", "https://sayed-dj-next.herokuapp.com"]
 
 
 # Application definition
