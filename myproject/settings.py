@@ -31,12 +31,14 @@ ALLOWED_HOSTS = ["*"]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://myapp-sayedaktar-codecloudsc.vercel.app",
-    "django-nextjs.herokuapp.com"
+    "http://django-nextjs.herokuapp.com",
+    "https://django-nextjs.herokuapp.com"
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "https://myapp-sayedaktar-codecloudsc.vercel.app",
-    "django-nextjs.herokuapp.com"
+    "http://django-nextjs.herokuapp.com",
+    "https://django-nextjs.herokuapp.com"
 ]
 CORS_ALLOW_METHODS = ["*"]
 
