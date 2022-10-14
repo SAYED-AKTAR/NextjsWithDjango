@@ -11,6 +11,6 @@ class CustomUserModelAdminClass(admin.ModelAdmin):
         return obj.first_name +" " + obj.last_name
 
     def User_Photo(self, obj):
-        return format_html(f"<img src=http://127.0.0.1:8000/{obj.photo} widht='50' height='50'/>")
+        return format_html(f"<img src=https://sayed-dj-next.herokuapp.com/{obj.photo} widht='50' height='50'/>")
 
 admin.site.register(CustomUser, CustomUserModelAdminClass)
